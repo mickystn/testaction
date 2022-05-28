@@ -20,15 +20,12 @@ jobs:
 
         
       - name: npm install
-        working-directory: ./client
         run : npm install
 
       - name: npm test
-        working-directory: ./client
         run : npm test
         
       - name: npm run build
-        working-directory: ./client
         run : npm run build
 
       
